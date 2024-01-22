@@ -8,6 +8,7 @@ import factory.factories.JavaDeveloperFactory;
 public class Program {
     public static void main(String[] args) {
         DeveloperFactory developerFactory = createFactoryBySpecialty("java");
+
         Developer developer= developerFactory.createDeveloper();
         developer.writeCode();
     }
